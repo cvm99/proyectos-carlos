@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sus</title>
     <style>
-        body{
+        *{
             background-image:url(https://pbs.twimg.com/media/EhMgla-X0AAKL0f.jpg);
         }
         form{
@@ -48,7 +48,7 @@
             $("#form").submit(function () {
                 let name = $("#name").val();
                 if (name === "sarita" | name === "Sarita") {
-                    $(document).html("<img src='https://i.pinimg.com/736x/46/73/f4/4673f466d74cec5434782a9b42ae9a91.jpg'>");
+                    $("body").html("<img src='https://i.pinimg.com/736x/46/73/f4/4673f466d74cec5434782a9b42ae9a91.jpg'>");
                     return true;
                     
                 } else {
